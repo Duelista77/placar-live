@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Placar da Live</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <div id="board" class="board">
+    <h1 id="title" class="title"></h1>
+    <div id="teams" class="teams"></div>
+  </div>
+
+  <div id="status" class="status" hidden>
+    <span class="status-dot"></span>
+    <span id="status-text">conectando ao TikFinity</span>
+  </div>
+
+  <div id="demo-bar" class="demo-bar" hidden>
+    <strong>modo demonstracao</strong>
+    <button data-demo="start">iniciar</button>
+    <button data-demo="stop">parar</button>
+    <button data-demo="reset">zerar</button>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="overlay.js"></script>
+</body>
+</html>

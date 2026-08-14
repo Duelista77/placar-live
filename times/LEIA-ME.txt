@@ -1,0 +1,2 @@
+Coloque aqui as imagens de escudo dos times (PNG quadrado, 128x128).
+Depois aponte o caminho no config.js, ex: badge: "times/flamengo.png".
